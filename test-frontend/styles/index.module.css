@@ -1,0 +1,282 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+
+  }
+  .containerName{
+    text-align: center;
+    margin-top: 8%;
+  }
+  .card {
+      width: 300px;
+      height: 430px;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      margin: 20px;
+      flex-direction: column;
+      display: flex;
+    }
+     /*product*/
+     .product{
+      width: 250px;
+      height: 150px;
+      padding-left: 15%;
+      margin-top: 6%;
+    }
+    .card:hover{
+      background-color: #f0eeee;
+    }
+
+
+    
+    .title {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      padding: 16px;
+      align-items: center;
+    }
+    
+    .description {
+      color: #4a4a4a;
+      font-size: 14px;
+    }
+    
+    .footer {
+      padding: 16px;
+      align-items: center;
+    }
+  
+    .sale {
+      font-size: 18px;
+      font-style:unset;
+      text-decoration: line-through;
+    }
+  
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      
+    }
+    .desconto{
+      color: #5438FF;
+    }
+    
+    .button {
+      background-color: #5438FF;
+      color: white;
+      font-size: 15px;
+      padding: 8px 36%;
+      border: none;
+      margin-top: 10%;
+      border-radius: 1px;
+      cursor: pointer;
+      
+    }
+    .button:hover{
+      background-color: #3722BA;
+    }
+
+    /*Logitech*/
+    .cardLogi {
+        width: 300px;
+        height: 400px;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(to bottom, black,#00151c);
+        margin: 20px;
+        flex-direction: column;
+        display: flex;
+      }
+
+      .Logi{
+        color: #00B5EA;
+        font-size: 18px;
+        padding-left: 5%;
+        font-weight: 100;
+      }
+      .titleL {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #EFEFEF;
+        padding: 16px;
+        align-items: center;
+      }
+
+      .footerL {
+        padding: 16px;
+        align-items: center;
+      }
+    
+      .saleL {
+        font-size: 18px;
+        font-style:unset;
+        color: #EFEFEF;
+        text-decoration: line-through;
+      }
+    
+      .priceL {
+        font-size: 29px;
+        font-weight: bold;
+        color: #00B5EA;
+      }
+      
+      .buttonL {
+        background-color: #00B5EA;
+        color: #1A1A1A;
+        font-size: 15px;
+        padding: 8px 36%;
+        border: none;
+        margin-top: 5%;
+        border-radius: 1px;
+        cursor: pointer;
+        
+      }
+      .buttonL:hover{
+        background-color: #0085AC;
+      }
+      @media (max-width: 768px) {
+        .container {
+          width: 100%;
+          padding: 15px;
+          gap: 5px;
+        }
+
+        .card {
+          width: 250px;
+          height: 400px;
+          border-radius: 6px;
+          overflow: hidden;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          background-color: white;
+          margin: 20px;
+          flex-direction: column;
+          display: flex;
+        }
+        .card:hover{
+          background-color: #f0eeee;
+        }
+        .title {
+          font-size: 14px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          padding: 16px;
+          align-items: center;
+        }
+        
+        
+        .footer {
+          padding: 16px;
+          align-items: center;
+        }
+      
+        .sale {
+          font-size: 14px;
+          font-style:unset;
+          text-decoration: line-through;
+        }
+      
+        .price {
+          font-size: 14px;
+          font-weight: bold;
+          
+        }
+        .desconto{
+          color: #5438FF;
+        }
+        
+        .button {
+          background-color: #5438FF;
+          color: white;
+          font-size: 15px;
+          padding: 8px 30%;
+          border: none;
+          margin-top: 10%;
+          border-radius: 1px;
+          cursor: pointer;
+          
+        }
+        .button:hover{
+          background-color: #3722BA;
+        }
+
+
+
+        /*Logitech*/
+        .cardLogi{
+          width: 250px;
+          height: 400px;
+          border-radius: 6px;
+          overflow: hidden;
+          box-shadow: 0 4px 6px rgba(140, 12, 12, 0.1);
+          background: linear-gradient(to bottom, black,#00151c);
+          margin: 20px;
+          flex-direction: column;
+          display: flex;
+
+        }
+        .Logi{
+          color: #00B5EA;
+          font-size: 15px;
+          padding-left: 5%;
+          font-weight: 100;
+        }
+        .titleL {
+          font-size: 14px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          color: #EFEFEF;
+          padding: 16px;
+          align-items: center;
+        }
+  
+        .footerL {
+          padding: 14px;
+          align-items: center;
+        }
+      
+        .saleL {
+          font-size: 14px;
+          font-style:unset;
+          color: #EFEFEF;
+          text-decoration: line-through;
+        }
+      
+        .priceL {
+          font-size: 24px;
+          font-weight: bold;
+          color: #00B5EA;
+        }
+        
+        .buttonL {
+          background-color: #00B5EA;
+          color: #1A1A1A;
+          font-size: 15px;
+          padding: 8px 28%;
+          border: none;
+          margin-top: 5%;
+          border-radius: 1px;
+          font-weight: bold;
+          cursor: pointer;
+          
+        }
+        .buttonL:hover{
+          background-color: #0085AC;
+          
+        }
+        /*products*/
+    .product{
+      width: 230px;
+      height: 150px;
+      padding-left: 10%;
+      margin-top: 7%;
+    }
+
+
+    }
